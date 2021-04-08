@@ -1,10 +1,10 @@
 {
-	"name": "texxasrulez/calendar",
+	"name": "szabogyula/calendar",
 	"type": "roundcube-plugin",
 	"description": "CalDav Capable Calendar plugin for Roundcube and Nextcloud",
 	"homepage": "https://github.com/texxasrulez/calendar",
 	"license": "GPL-3.0",
-	"version": "0.0.7",
+	"version": "0.0.7.1",
 	"authors": [
 		{
 			"name": "Gene Hawkins",
@@ -31,7 +31,7 @@
 	],
 	"require": {
 		"php": ">=7.1.0",
-		"roundcube/plugin-installer": "~0.1.6",
+		"roundcube/plugin-installer": "*",
 		"texxasrulez/libcalendaring": "3.5.2",
 		"texxasrulez/libkolab": "3.5.4",
 		"sabre/dav": "4.1.1",
